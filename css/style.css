@@ -1,0 +1,178 @@
+body{
+    background-color:rgba(100,100,100,1);
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+.header{
+    width:100%;
+    height:400px;
+    background-image:url(../images/tree-247122_IWyFNLz.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.header ul{
+    width:auto;
+    height:40px;
+    list-style: none;
+}
+.header ul li{
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 2%;
+    width:100px;
+    height:50px;
+    text-align: center;
+    line-height: 50px;
+   
+    
+}
+.header ul li:last-child{
+    position: absolute;
+    right:5%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 2px gray;
+}
+.header ul li a{
+    text-decoration: none;
+    color:#ddd;
+    
+}
+.header ul li:hover{
+    background-color:rgba(100,100,100,.6);
+    box-shadow: 1px 1px 10px 2px gray;
+    
+}
+
+
+
+
+.content{
+    width:100%;
+    height:250px;
+    margin-top: 0%;
+    display: flex;
+    
+}
+.content span{
+    color:white;
+    margin: 3%;
+    background: rgba(184, 216, 226, 0.445);
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+
+.container{
+    width:100%;
+    height:350px;
+    background: cadetblue;
+    position: relative;
+
+}
+.container>p{
+    color: black;
+    text-align: center;
+    position: absolute;
+    width:80%;
+    margin: 15% 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    color:rgba(90, 90, 90, 1)
+}
+
+
+.stories{
+    width:80%;
+    height:600px;
+    position: relative;
+    background: rgba(192, 225, 233, 0.651);
+    margin-left:10%;
+    margin-top:10%;
+    display: flex;
+}
+
+
+
+#covered_left_side{
+    width:50%;
+    height:600px;
+}
+#covered_left_side ul{
+    width:100%;
+    height:30px;
+    list-style: none;
+}
+#covered_left_side ul li{
+    width:70%;
+    height:22px;
+    background: #aaa;
+    margin-top:5px;
+    padding: 10px;
+}
+
+#covered_left_side #img{
+    position: relative;
+    top:43%;
+    left:13%;
+    width:73.5%;
+    height:250px;
+    background-image:url(../images/superthumb.jpg);
+    background-size: cover;
+}
+
+
+
+
+/**/
+#covered_right_side{
+    width:50%;
+    height:600px;
+    
+}
+#covered_right_side ul{
+    width:100%;
+    height:30px;
+    list-style: none;
+    margin-top:8%;
+}
+#covered_right_side ul li{
+    width:70%;
+    height:22px;
+    background: #aaa;
+    margin-top:5px;
+    padding: 10px;
+}
+
+#covered_right_side #img_2{
+    position: relative;
+    top:3%;
+    left:13%;
+    width:73.5%;
+    height:250px;
+    background-image:url(../images/depression-boy-sketch-sad-anime-boyjunorosalie-on-deviantart.png);
+    background-size: cover;
+}
+
+.slider{
+    width: 100%;
+    height:450px;
+    position: relative;
+    margin-top:5%;
+    background:url(../images/fcbfe96f49714afba05269a2819b5933_large_FoxK4au.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.slider span{
+    margin-left:40%;
+    margin-top: 10%;
+    position: absolute;
+    font-size: 25px;
+}
