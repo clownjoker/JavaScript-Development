@@ -1,4 +1,4 @@
-/* global console */
+/* global console ,alert*/
 /*
 * here we are 
 * we just easly will do something in the begining of this project
