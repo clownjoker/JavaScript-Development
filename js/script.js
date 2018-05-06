@@ -15,6 +15,6 @@ let bodyClass = document.getElementsByClassName('bodyClass'), // select the body
 
     bodyQuery = document.querySelector('body'); // using querySelector to select the body as element
 
-var selectByJquery = $("body"); // using jquery to select the body as element
+//var selectByJquery = $("body"); // using jquery to select the body as element
 
 // leave a comment if anything is not understand
