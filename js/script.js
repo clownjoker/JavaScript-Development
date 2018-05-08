@@ -9,6 +9,8 @@
 * thats all we'll do in a few days so keep well and start
 */
 
+
+
 let bodyClass = document.getElementsByClassName('bodyClass'), // select the body by its class
 
     bodyId = document.getElementById('bodyId'), // select the body by its id
