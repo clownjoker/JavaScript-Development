@@ -12,6 +12,7 @@ body{
     background-image:url(../images/tree-247122_IWyFNLz.jpg);
     background-position: center;
     background-size: cover;
+    /*filter: blur(3px);*/
 }
 .header ul{
     width:auto;
@@ -35,6 +36,7 @@ body{
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 1px 1px 10px 2px gray;
+    /*filter: blur(10px);*/
 }
 .header ul li a{
     text-decoration: none;
